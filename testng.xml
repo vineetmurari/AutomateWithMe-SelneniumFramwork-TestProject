@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+
+<parameter name="URL" value="https://www.google.co.in/"></parameter>
+
+  <test name="Test1">
+  <parameter name="Browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.automate.withMe.Test_google"/>
+    </classes>
+  </test> 
+  <test name="Test2">
+  <parameter name="Browser" value="IE"></parameter>
+    <classes>
+      <class name="com.automate.withMe.Test_google"/>
+    </classes>
+  </test> 
+ 
+</suite> 

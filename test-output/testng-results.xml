@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17852" started-at="2020-07-12T07:49:27Z" finished-at="2020-07-12T07:49:45Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="12996" started-at="2020-07-12T07:49:27Z" finished-at="2020-07-12T07:49:40Z">
+      <class name="com.automate.withMe.Test_google">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.automate.withMe.Test_google@1d251891]" name="beforeTest" is-config="true" duration-ms="5217" started-at="2020-07-12T13:19:27Z" finished-at="2020-07-12T13:19:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f(java.lang.String)[pri:0, instance:com.automate.withMe.Test_google@1d251891]" name="f" duration-ms="3052" started-at="2020-07-12T13:19:32Z" finished-at="2020-07-12T13:19:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.co.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automate.withMe.Test_google@1d251891]" name="afterTest" is-config="true" duration-ms="4715" started-at="2020-07-12T13:19:35Z" finished-at="2020-07-12T13:19:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.automate.withMe.Test_google -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="4841" started-at="2020-07-12T07:49:40Z" finished-at="2020-07-12T07:49:45Z">
+      <class name="com.automate.withMe.Test_google">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.automate.withMe.Test_google@3d24753a]" name="beforeTest" is-config="true" duration-ms="1596" started-at="2020-07-12T13:19:40Z" finished-at="2020-07-12T13:19:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f(java.lang.String)[pri:0, instance:com.automate.withMe.Test_google@3d24753a]" name="f" duration-ms="2467" started-at="2020-07-12T13:19:42Z" finished-at="2020-07-12T13:19:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.co.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automate.withMe.Test_google@3d24753a]" name="afterTest" is-config="true" duration-ms="776" started-at="2020-07-12T13:19:44Z" finished-at="2020-07-12T13:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.automate.withMe.Test_google -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
