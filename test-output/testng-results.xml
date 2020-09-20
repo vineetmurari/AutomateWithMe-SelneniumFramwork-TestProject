@@ -1,73 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="34171" started-at="2020-09-20T06:57:20Z" finished-at="2020-09-20T06:57:54Z">
+  <suite name="Suite" duration-ms="16041" started-at="2020-09-20T07:16:10Z" finished-at="2020-09-20T07:16:26Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="14452" started-at="2020-09-20T06:57:20Z" finished-at="2020-09-20T06:57:34Z">
+    <test name="Test3" duration-ms="16041" started-at="2020-09-20T07:16:10Z" finished-at="2020-09-20T07:16:26Z">
       <class name="com.automate.withMe.Test_google">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.automate.withMe.Test_google@1d251891]" name="beforeTest" is-config="true" duration-ms="5364" started-at="2020-09-20T12:27:20Z" finished-at="2020-09-20T12:27:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f(java.lang.String)[pri:0, instance:com.automate.withMe.Test_google@1d251891]" name="f" duration-ms="4260" started-at="2020-09-20T12:27:25Z" finished-at="2020-09-20T12:27:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.google.co.in/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automate.withMe.Test_google@1d251891]" name="afterTest" is-config="true" duration-ms="4815" started-at="2020-09-20T12:27:29Z" finished-at="2020-09-20T12:27:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.automate.withMe.Test_google -->
-    </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="5986" started-at="2020-09-20T06:57:34Z" finished-at="2020-09-20T06:57:40Z">
-      <class name="com.automate.withMe.Test_google">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.automate.withMe.Test_google@3d24753a]" name="beforeTest" is-config="true" duration-ms="2008" started-at="2020-09-20T12:27:34Z" finished-at="2020-09-20T12:27:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[IE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f(java.lang.String)[pri:0, instance:com.automate.withMe.Test_google@3d24753a]" name="f" duration-ms="3402" started-at="2020-09-20T12:27:36Z" finished-at="2020-09-20T12:27:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.google.co.in/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automate.withMe.Test_google@3d24753a]" name="afterTest" is-config="true" duration-ms="574" started-at="2020-09-20T12:27:40Z" finished-at="2020-09-20T12:27:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.automate.withMe.Test_google -->
-    </test> <!-- Test2 -->
-    <test name="Test3" duration-ms="13707" started-at="2020-09-20T06:57:40Z" finished-at="2020-09-20T06:57:54Z">
-      <class name="com.automate.withMe.Test_google">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.automate.withMe.Test_google@2812cbfa]" name="beforeTest" is-config="true" duration-ms="7940" started-at="2020-09-20T12:27:40Z" finished-at="2020-09-20T12:27:48Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.automate.withMe.Test_google@1d251891]" name="beforeTest" is-config="true" duration-ms="10123" started-at="2020-09-20T12:46:10Z" finished-at="2020-09-20T12:46:20Z">
           <params>
             <param index="0">
               <value>
@@ -78,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f(java.lang.String)[pri:0, instance:com.automate.withMe.Test_google@2812cbfa]" name="f" duration-ms="2908" started-at="2020-09-20T12:27:48Z" finished-at="2020-09-20T12:27:51Z">
+        <test-method status="PASS" signature="f(java.lang.String)[pri:0, instance:com.automate.withMe.Test_google@1d251891]" name="f" duration-ms="2476" started-at="2020-09-20T12:46:20Z" finished-at="2020-09-20T12:46:22Z">
           <params>
             <param index="0">
               <value>
@@ -89,7 +29,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automate.withMe.Test_google@2812cbfa]" name="afterTest" is-config="true" duration-ms="2856" started-at="2020-09-20T12:27:51Z" finished-at="2020-09-20T12:27:54Z">
+        <test-method status="PASS" signature="afterTest(java.lang.String)[pri:0, instance:com.automate.withMe.Test_google@1d251891]" name="afterTest" is-config="true" duration-ms="3425" started-at="2020-09-20T12:46:22Z" finished-at="2020-09-20T12:46:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

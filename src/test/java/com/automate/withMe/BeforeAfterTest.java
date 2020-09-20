@@ -38,10 +38,17 @@ public class BeforeAfterTest {
 	  }
 
 	  @AfterTest
-	  public void afterTest() {
+	  @Parameters({"Browser"})
+	  public void afterTest(String browser) {
 		  try{
 		  driver.close();
+		  
+		  if(!browser.equalsIgnoreCase("FF")){
 		  driver.quit();
+		  }
+		  else{
+			  driver = null;
+		  }
 		  }catch(Exception e){
 			  System.out.println("FF issue");
 		  }

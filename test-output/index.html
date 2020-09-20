@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,16 +100,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automate.withMe.Test_google" hash-for-method="f(https://www.google.co.in/)">f(https://www.google.co.in/)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automate.withMe.Test_google" hash-for-method="f(https://www.google.co.in/)">f(https://www.google.co.in/)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automate.withMe.Test_google" hash-for-method="f(https://www.google.co.in/)">f(https://www.google.co.in/)</a> <!-- method navigator-link -->
@@ -141,22 +131,6 @@
                   <span class="parameters">(https://www.google.co.in/)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="f(https://www.google.co.in/)">
-                  </a> <!-- f(https://www.google.co.in/) -->
-                  <span class="method-name">f</span>
-                  <span class="parameters">(https://www.google.co.in/)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="f(https://www.google.co.in/)">
-                  </a> <!-- f(https://www.google.co.in/) -->
-                  <span class="method-name">f</span>
-                  <span class="parameters">(https://www.google.co.in/)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
@@ -170,18 +144,6 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
   &lt;parameter name=&quot;URL&quot; value=&quot;https://www.google.co.in/&quot;/&gt;
-  &lt;test name=&quot;Test1&quot;&gt;
-    &lt;parameter name=&quot;Browser&quot; value=&quot;chrome&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.automate.withMe.Test_google&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test1 --&gt;
-  &lt;test name=&quot;Test2&quot;&gt;
-    &lt;parameter name=&quot;Browser&quot; value=&quot;IE&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.automate.withMe.Test_google&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test2 --&gt;
   &lt;test name=&quot;Test3&quot;&gt;
     &lt;parameter name=&quot;Browser&quot; value=&quot;FF&quot;/&gt;
     &lt;classes&gt;
@@ -198,12 +160,6 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
-              <li>
-                <span class="test-name">Test1 (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Test2 (1 class)</span>
-              </li>
               <li>
                 <span class="test-name">Test3 (1 class)</span>
               </li>
@@ -231,24 +187,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'f')
 data.setCell(0, 2, 'com.automate.withMe.Test_google')
-data.setCell(0, 3, 4260);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'f')
-data.setCell(1, 2, 'com.automate.withMe.Test_google')
-data.setCell(1, 3, 3402);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'f')
-data.setCell(2, 2, 'com.automate.withMe.Test_google')
-data.setCell(2, 3, 2908);
+data.setCell(0, 3, 2476);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -276,40 +224,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.automate.withMe.Test_google</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(chrome)</span>
+                <span class="method-name">beforeTest(FF)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">f(https://www.google.co.in/)</span>
-                <span class="method-start">5370 ms</span>
+                <span class="method-start">10131 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">9631 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-test before">
-                <span class="method-name">beforeTest(IE)</span>
-                <span class="method-start">14466 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">f(https://www.google.co.in/)</span>
-                <span class="method-start">16474 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">19877 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-test before">
-                <span class="method-name">beforeTest(FF)</span>
-                <span class="method-start">20459 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">f(https://www.google.co.in/)</span>
-                <span class="method-start">28400 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">31309 ms</span>
+                <span class="method-name">afterTest(FF)</span>
+                <span class="method-start">12610 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

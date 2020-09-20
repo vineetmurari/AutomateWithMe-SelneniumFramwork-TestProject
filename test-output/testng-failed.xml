@@ -3,18 +3,6 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <parameter name="URL" value="https://www.google.co.in/"/>
   <parameter name="Browser" value="FF"/>
-  <test name="Test1">
-    <parameter name="Browser" value="chrome"/>
-    <classes>
-      <class name="com.automate.withMe.Test_google"/>
-    </classes>
-  </test> <!-- Test1 -->
-  <test name="Test2">
-    <parameter name="Browser" value="IE"/>
-    <classes>
-      <class name="com.automate.withMe.Test_google"/>
-    </classes>
-  </test> <!-- Test2 -->
   <test name="Test3">
     <parameter name="Browser" value="FF"/>
     <classes>
